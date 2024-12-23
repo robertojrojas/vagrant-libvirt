@@ -39,7 +39,7 @@ module VagrantPlugins
         conn_attr = {
           provider: 'libvirt',
           libvirt_uri: uri,
-          libvirt_ip_command: ip_command,
+        #  libvirt_ip_command: ip_command,
         }
         conn_attr[:libvirt_username] = config.username if config.username
         conn_attr[:libvirt_password] = config.password if config.password
